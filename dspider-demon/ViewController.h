@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "include/spidersdk/spidersdk.h"
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController<DSpiderResult, DSpiderDelegate>
 
 @end
 

@@ -13,6 +13,8 @@
 		81D6EB081E811DA400757F6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81D6EB061E811DA400757F6A /* Main.storyboard */; };
 		81D6EB0A1E811DA400757F6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81D6EB091E811DA400757F6A /* Assets.xcassets */; };
 		81D6EB0D1E811DA400757F6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81D6EB0B1E811DA400757F6A /* LaunchScreen.storyboard */; };
+		81D6EB261E81203000757F6A /* include in Resources */ = {isa = PBXBuildFile; fileRef = 81D6EB251E81203000757F6A /* include */; };
+		81D6EB281E81218600757F6A /* libspidersdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D6EB271E81218600757F6A /* libspidersdk.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		81D6EB091E811DA400757F6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81D6EB0C1E811DA400757F6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81D6EB0E1E811DA400757F6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81D6EB251E81203000757F6A /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
+		81D6EB271E81218600757F6A /* libspidersdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libspidersdk.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81D6EB281E81218600757F6A /* libspidersdk.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +63,8 @@
 		81D6EAFC1E811DA400757F6A /* dspider-demon */ = {
 			isa = PBXGroup;
 			children = (
+				81D6EB271E81218600757F6A /* libspidersdk.a */,
+				81D6EB251E81203000757F6A /* include */,
 				81D6EB001E811DA400757F6A /* AppDelegate.h */,
 				81D6EB011E811DA400757F6A /* AppDelegate.m */,
 				81D6EB031E811DA400757F6A /* ViewController.h */,
@@ -140,6 +147,7 @@
 				81D6EB0D1E811DA400757F6A /* LaunchScreen.storyboard in Resources */,
 				81D6EB0A1E811DA400757F6A /* Assets.xcassets in Resources */,
 				81D6EB081E811DA400757F6A /* Main.storyboard in Resources */,
+				81D6EB261E81203000757F6A /* include in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,8 +279,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "dspider-demon/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "wendu.dspider-demon";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/dspider-demon",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wendu.spider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -282,8 +295,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "dspider-demon/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "wendu.dspider-demon";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/dspider-demon",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wendu.spider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
