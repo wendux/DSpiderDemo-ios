@@ -18,7 +18,7 @@
 @property(nonatomic,weak) id<Persistence> persistenceDelegate;
 -(void)setArguments:(NSDictionary *) args;
 -(void)start:(int) sid;
--(void)startDebug:(NSString *)title debugScript:(NSString *)debugScript debugUrl:(NSString *)debugUrl;
+-(void)startDebug: (NSString *)debugScript debugUrl:(NSString *)debugUrl;
 -(bool)canRetry;
 -(void)retry;
 -(void)stop;
