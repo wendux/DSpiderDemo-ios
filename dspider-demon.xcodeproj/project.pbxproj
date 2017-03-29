@@ -15,6 +15,7 @@
 		81D6EB0D1E811DA400757F6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81D6EB0B1E811DA400757F6A /* LaunchScreen.storyboard */; };
 		81D6EB261E81203000757F6A /* include in Resources */ = {isa = PBXBuildFile; fileRef = 81D6EB251E81203000757F6A /* include */; };
 		81D6EB281E81218600757F6A /* libspidersdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D6EB271E81218600757F6A /* libspidersdk.a */; };
+		81E168DA1E8B9B720059EF91 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 81E168D91E8B9B720059EF91 /* 1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		81D6EB0E1E811DA400757F6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81D6EB251E81203000757F6A /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
 		81D6EB271E81218600757F6A /* libspidersdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libspidersdk.a; sourceTree = "<group>"; };
+		81E168D91E8B9B720059EF91 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 		81D6EAFC1E811DA400757F6A /* dspider-demon */ = {
 			isa = PBXGroup;
 			children = (
+				81E168D81E8B99140059EF91 /* screenshots */,
 				81D6EB271E81218600757F6A /* libspidersdk.a */,
 				81D6EB251E81203000757F6A /* include */,
 				81D6EB001E811DA400757F6A /* AppDelegate.h */,
@@ -84,6 +87,14 @@
 				81D6EAFE1E811DA400757F6A /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		81E168D81E8B99140059EF91 /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				81E168D91E8B9B720059EF91 /* 1.png */,
+			);
+			name = screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +159,7 @@
 				81D6EB0A1E811DA400757F6A /* Assets.xcassets in Resources */,
 				81D6EB081E811DA400757F6A /* Main.storyboard in Resources */,
 				81D6EB261E81203000757F6A /* include in Resources */,
+				81E168DA1E8B9B720059EF91 /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +337,7 @@
 				81D6EB131E811DA400757F6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
