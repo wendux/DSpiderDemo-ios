@@ -1,5 +1,5 @@
 # 客户端爬取ios demo
- ![image](http://github.com/wendux/DSpiderDemo-ios/raw/master/dspider-demon/1.png)
+ ![image](https://github.com/wendux/DSpiderDemo-ios/raw/master/dspider-demon/1.png)
 
 客户端爬取ios demo, 演示了如何使用dSpider sdk进行显式爬取和静默爬取。详细的集成文档请参考：
 
