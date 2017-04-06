@@ -128,6 +128,7 @@
 				TargetAttributes = {
 					81D6EAF91E811DA400757F6A = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = XTLLEQZMD7;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -290,6 +291,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XTLLEQZMD7;
 				INFOPLIST_FILE = "dspider-demon/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -306,6 +308,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XTLLEQZMD7;
 				INFOPLIST_FILE = "dspider-demon/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
